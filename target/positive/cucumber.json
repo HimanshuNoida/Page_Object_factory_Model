@@ -1,0 +1,384 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1118083501,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on the Login Page of the Amazon website \"https://www.amazon.in/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.amazon.in/",
+                  "offset": 49
+                }
+              ],
+              "location": "Login_And_add_product_to_cart.user_is_on_the_Login_Page_of_the_Amazon_website(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-23T12:37:35.492Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1985244300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUP()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User succesfully gets login to the Amazon website",
+        "description": "",
+        "id": "to-check-user--should--able-to-add-product-into-the-cart;user-succesfully-gets-login-to-the-amazon-website",
+        "after": [
+          {
+            "result": {
+              "duration": 778200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 776645800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click the login link to enter login and password respectively",
+            "match": {
+              "location": "Login_And_add_product_to_cart.user_click_the_login_link_to_enter_login_and_password_respectively()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 769889900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enter the valid username of the account",
+            "match": {
+              "location": "Login_And_add_product_to_cart.user_enter_the_valid_username_of_the_account(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "naudiyalhimanshu@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148011499,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enter the valid password of the Account",
+            "match": {
+              "location": "Login_And_add_product_to_cart.user_enter_the_valid_password_of_the_Account(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Naulikechite@987"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 908300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user login to login on to the Amazon website",
+            "match": {
+              "location": "Login_And_add_product_to_cart.user_login_to_login_on_to_the_Amazon_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3885652100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on the Login Page of the Amazon website \"https://www.amazon.in/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.amazon.in/",
+                  "offset": 49
+                }
+              ],
+              "location": "Login_And_add_product_to_cart.user_is_on_the_Login_Page_of_the_Amazon_website(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-23T12:37:40.326Z",
+        "before": [
+          {
+            "result": {
+              "duration": 641200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUP()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "when user is on the Amazon Home page",
+        "description": "",
+        "id": "to-check-user--should--able-to-add-product-into-the-cart;when-user-is-on-the-amazon-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 305200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4103276300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": ": he  click over the \"ALL\" category",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ALL",
+                  "offset": 22
+                }
+              ],
+              "location": "Login_And_add_product_to_cart.he_click_over_the_category(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1388318400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "click category",
+            "match": {
+              "location": "Login_And_add_product_to_cart.click_category(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Best Sellers"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67508901,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "he is able to \"Bestsellers\" Text on the next page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bestsellers",
+                  "offset": 15
+                }
+              ],
+              "location": "Login_And_add_product_to_cart.he_is_able_to_Text_on_the_next_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5855729000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "he is able  to Add product on the page",
+            "match": {
+              "location": "Login_And_add_product_to_cart.he_is_able_to_Add_product_on_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To check user  should  able to add product into the cart",
+    "description": "     In order to check when a user of Amazon Account \n     log in then  he should be succesffuly login\n     and should able to add products into the cart",
+    "id": "to-check-user--should--able-to-add-product-into-the-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/Amazon_Product.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-23T12:37:55.631Z",
+        "before": [
+          {
+            "result": {
+              "duration": 309700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUP()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Enter the item name in the search bar and can purchase from there",
+        "description": "",
+        "id": "to-search-any-product-from-the-searchabar-and-can-purchase-it;enter-the-item-name-in-the-search-bar-and-can-purchase-from-there;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 342700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4071195300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on the search bar page",
+            "match": {
+              "location": "Searched_item_to_cart.user_is_on_the_search_bar_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3528038600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter the item name \"shoes\" in the search bar and click search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shoes\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Searched_item_to_cart.user_enter_the_item_name_in_the_search_bar_and_click_search(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8464527200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "item should display and",
+            "match": {
+              "location": "Searched_item_to_cart.item_should_display_and()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11633794701,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should able to add it to cart",
+            "match": {
+              "location": "Searched_item_to_cart.user_should_able_to_add_it_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3659427400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Select the address where user want to deleiver",
+            "match": {
+              "location": "Searched_item_to_cart.select_the_address_where_user_want_to_deleiver()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "purchase it after payment perform succesfull",
+            "match": {
+              "location": "Searched_item_to_cart.purchase_it_after_payment_perform_succesfull()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To search any product from the searchabar and can purchase it",
+    "description": "         In order to check that user can enter any product in the search bar \n         and can purchase from them",
+    "id": "to-search-any-product-from-the-searchabar-and-can-purchase-it",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/Run_product_into_searchbar.feature",
+    "tags": []
+  }
+]
