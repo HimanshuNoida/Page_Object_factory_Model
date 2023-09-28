@@ -12,7 +12,7 @@ public class CommonMethods {
 	public static void ScrolltoElem(WebElement item) {
 
 		((JavascriptExecutor) SeleniumDriver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", item);
-		
+		//
 	}
 
 	public static void scrollDown() {
