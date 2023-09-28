@@ -3,6 +3,11 @@
 	<groupId>Amazon</groupId>
 	<artifactId>Amazon_cuccumber_project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<java.version>11</java.version>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+	</properties>
 	<dependencies>
 
 
@@ -67,14 +72,13 @@
 			<version>4.11.0</version>
 
 		</dependency>
-		
-		
+
+
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
 			<version>31.0.1-jre</version>
 		</dependency>
-
 
 
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
