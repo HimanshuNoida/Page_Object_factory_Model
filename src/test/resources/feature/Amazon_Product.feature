@@ -14,7 +14,7 @@ Feature: To check user  should  able to add product into the cart
     When user enter the valid username of the account
       | naudiyalhimanshu@gmail.com |
     And user enter the valid password of the Account
-      | Nlikechite@987 |
+      | Naulikechite@601 |
     Then user login to login on to the Amazon website
     
 
