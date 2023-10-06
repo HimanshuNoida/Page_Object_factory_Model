@@ -66,6 +66,8 @@ public class Searched_item {
 				System.out.println("child window title " + driver.getTitle());
 			}
 		}
+		 
+		driver.navigate().back();
 	}
 
 	@And("click Add to cart")
