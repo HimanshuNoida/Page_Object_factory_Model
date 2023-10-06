@@ -1,0 +1,7 @@
+steps\Searched_item_to_cart.class
+steps\Searched_item.class
+steps\AfterActions.class
+steps\CommonMethods.class
+runner\RunCukes.class
+steps\Login_And_add_product_to_cart.class
+steps\BeforeActions.class
