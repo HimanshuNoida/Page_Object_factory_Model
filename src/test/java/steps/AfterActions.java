@@ -19,7 +19,7 @@ public class AfterActions {
 			byte[] screenshotBytes = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 			scenario.embed(screenshotBytes, "image/png");
 		}
-//		SeleniumDriver.tearDown();
+     	SeleniumDriver.tearDown();
 
 	}
 

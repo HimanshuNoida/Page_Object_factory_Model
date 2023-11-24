@@ -16,19 +16,19 @@
 
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
-
-
-		<dependency>
-
-			<groupId>io.cucumber</groupId>
-
-			<artifactId>cucumber-core</artifactId>
-
-			<version>4.8.1</version>
-
-		</dependency>
-
+			<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
+	
+	
+			<dependency>
+	
+				<groupId>io.cucumber</groupId>
+	
+				<artifactId>cucumber-core</artifactId>
+	
+				<version>4.8.1</version>
+	
+			</dependency>
+	
 
 		<dependency>
 

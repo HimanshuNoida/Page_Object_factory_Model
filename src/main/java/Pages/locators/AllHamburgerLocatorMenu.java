@@ -9,7 +9,4 @@ public class AllHamburgerLocatorMenu {
 	@FindBy(how = How.XPATH, using ="//ul[@class='hmenu hmenu-visible']//a[@class='hmenu-item'][normalize-space()='Best Sellers']")
 	public WebElement BestSellers;
 	
-	
-	
-	
 }

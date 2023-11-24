@@ -18,7 +18,6 @@ public class CommonMethods {
 	public static void scrollDown() {
 
 		Actions action = new Actions(SeleniumDriver.getDriver());
-
 		
 		for(int i=0;i<12;i++){
 		action.sendKeys(Keys.DOWN).build().perform();

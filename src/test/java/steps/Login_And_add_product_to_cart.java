@@ -9,6 +9,7 @@ import Pages.actions.AmazonHomePageActions;
 import Pages.actions.AmazonLoginPageActions;
 import Pages.actions.Amazon_Item_AddToCartActions;
 import Util.SeleniumDriver;
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -38,18 +39,22 @@ public class Login_And_add_product_to_cart {
 	}
 
 	@And("^user enter the valid username of the account$")
-	public void user_enter_the_valid_username_of_the_account(List<String> list) throws Throwable {
+	public void user_enter_the_valid_username_of_the_account(DataTable datatable) throws Throwable {
 
-		String username = list.get(0);
+		List<String> data = datatable.asList();
+
+		String username = data.get(0);
 		amazonLoginPageActions.inputUsername(username);
 		// Thread.sleep(3000);
 		amazonLoginPageActions.clickContine();
 	}
 
 	@And("^user enter the valid password of the Account$")
-	public void user_enter_the_valid_password_of_the_Account(List<String> list) throws Throwable {
+	public void user_enter_the_valid_password_of_the_Account(DataTable datatable) throws Throwable {
+
+		List<String> data = datatable.asList();
 		// Thread.sleep(3000);
-		String password = list.get(0);
+		String password = data.get(0);
 		amazonLoginPageActions.inputPassword(password);
 		amazonLoginPageActions.signIn();
 	}
@@ -74,21 +79,19 @@ public class Login_And_add_product_to_cart {
 		allHamburgerMenuActions.clickBestSellers(category);
 	}
 
-	
-
 	@Then("^he is able to \"([^\"]*)\" Text on the next page$")
 	public void he_is_able_to_Text_on_the_next_page(String ExpectedString) throws Throwable {
 
-	String link=Addtocart.getText();
-	link.contains(ExpectedString);
-	
+		String link = Addtocart.getText();
+		link.contains(ExpectedString);
+
 	}
-	
+
 	@And("^he is able  to Add product on the page$")
 	public void he_is_able_to_Add_product_on_the_page() throws Throwable {
 		Addtocart.itemclick();
 		Addtocart.AddToCart();
-		
+
 	}
 
 }

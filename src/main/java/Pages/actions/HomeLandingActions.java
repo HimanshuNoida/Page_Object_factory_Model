@@ -11,7 +11,7 @@ import Util.SeleniumDriver;
 
 public class HomeLandingActions {
 
-	HomeLandingLocators HLP = null;;
+	HomeLandingLocators HLP = null;
 	static WebElement item;
 
 	public HomeLandingActions() {

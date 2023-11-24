@@ -1,5 +1,6 @@
 package Util;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -34,7 +35,7 @@ public class SeleniumDriver {
 	public static void setUpDriver() {
 		if (seleniumdriver == null) {
 			seleniumdriver = new SeleniumDriver();
-			driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		}
 	}
 
