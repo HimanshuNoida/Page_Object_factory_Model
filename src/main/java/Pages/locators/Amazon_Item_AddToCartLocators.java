@@ -13,7 +13,7 @@ public class Amazon_Item_AddToCartLocators {
 	public  WebElement link;
 	
 	@FindBy(how=How.XPATH,using="//span[@id='zg_banner_text']")
-	WebElement item_link;
+	public WebElement item_link;
 	
 	
 	@FindBy(how=How.XPATH,using="//input[@id='add-to-cart-button']")

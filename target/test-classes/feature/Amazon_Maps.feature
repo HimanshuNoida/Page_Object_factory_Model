@@ -9,7 +9,7 @@ Given The user is on the Homepage  of  the login page
 When user enter the valid username and password in the password  field 
   
   |       username           | password   |
-  |naudiyalhimanshu@gmail.com| Noida@601  |
+  |naudiyalhimanshu@gmail.com| Naulikechite@601  |
 Then user  gets sucessfully login into the website
 And user able  to see the HomePage of the website
 
